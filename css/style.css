@@ -1,0 +1,344 @@
+/*@media screen and (min-device-width: 320px)
+and (max-device-width : 1920px) {*/
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Indie+Flower|Shadows+Into+Light|Architects+Daughter|Kaushan+Script|Satisfy|Calligraffitti|Roboto+Slab:400,700,300);
+
+
+body{
+  
+  width: 100%;
+  background-color:#00ffbf;
+}
+
+.jumbotron {
+  background-image:url('../img/pcproject/scenery.jpg');
+  /*background-image:url('../img/pcproject/Panaview-Santiago.jpg');*/
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 65px; 
+  font-family: Shadows Into Light, cursive,'Shift', sans-serif;
+  font-weight: 700;
+ 
+}
+
+.navbar-brand{
+    font-family: Shadows Into Light, Satisfy, cursive;
+}
+
+
+.jumbotron connect{
+/*    background-image:url();*/
+}
+
+/*.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}*/
+
+.container p{
+  font-family: Kaushan Script, cursive,'Shift', sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.container2{
+    position: relative;
+     margin:15px;
+   /* float: left;*/
+} 
+
+.container2a{
+    position: relative;
+    margin:15px;
+    /*float: right;*/
+} 
+
+#side {background-image: url('../img/pcproject/havana-blue.jpg');
+    /*background-image: url('../img/pcproject/oldtimer.jpg');*/
+    height:700px;
+    width: 25%;
+    margin:5px;
+    border:5px #800000;  
+    float: left;
+    background-size: cover;
+    clear:both;
+}
+   
+#main {background-image: url('../img/pcproject/woman-blue.jpg');
+    /*background-image: url('../img/pcproject/dancematanzas.jpg');*/
+    height: 700px;
+    width: 70%;
+    margin:5px;
+    float: right;
+    background-size: cover;
+    
+        /*border:0px, 500px, 0px,500px #800000;
+        display: inline-flex;*/}
+        
+
+    
+
+    
+#footer{
+background-color: #bf8040;
+position:relative;
+    height: 70px;
+    width: 100%;
+    border:0px, 500px,0px, 500px, #800000;
+    margin:5px;
+    padding: 0px,500px,0px, 500px;
+    display: inline-flex;
+   
+}
+
+.pagination{
+  position: absolute;
+  top: 0;
+  /*left:650px;*/
+  width: 100%;
+ font-family: cursive;
+}
+
+.footer{
+background-color: #bf8040;
+position:relative;
+    /*height: 100px;*/
+    width: 1900px;
+    border:0px, 500px,0px, 15px, #800000;
+    margin:50px, 0, 15px, 0;
+    padding: 20px;
+    display: inline-flex;
+    clear:both;
+}
+
+.footer p{
+  font-family: Kaushan Script, cursive, sans-serif;
+  font-size: medium;
+  font-weight: 700;
+  line-height: 1.1em;
+  transition: background-color .5s;
+ /*margin: 0 0 1em 0*/
+}
+/*.glyphicon{
+    width: 100%;
+    height: auto;
+    
+    /*left:650px;*/
+
+
+img{
+    max-width: 200px;
+    /*width: 200px;
+    height: 200px;
+    display: inline-block;*/
+}
+
+.container3{
+  background-color: #80bfff; 
+  /*url("..img/pcproject/classygentleman.jpg") no repeat;*/
+  padding: 10px;
+   margin:10px;
+}
+.container4{
+  background-color: #b3e6ff;
+  padding: 10px;
+   margin:10px;
+}
+.container5{
+  background-color: #cceeff;
+  padding: 10px;
+   margin:10px;
+}
+
+.container6{
+  background-color: #e6f2ff;
+  padding: 10px;
+   margin:10px;
+}
+
+.container7{
+  /*background-image: url('img/pcproject/#.jpg');*/
+  background-color: #bf8040;
+  padding: 10px;
+   margin:10px;
+}
+.container8{
+  background-color: #dfbf9f;
+  padding: 10px;
+   margin:10px;
+}
+.container9{
+  background-color: #e6ccb3;
+  padding: 10px;
+   margin:10px;
+}
+
+.container10{
+  background-color: #ecd9c6;
+  padding: 10px;
+   margin:10px;
+}
+
+.container11{
+  /*background-image: url('img/pcproject/#.jpg');*/
+  background-color: #ff9999;
+  padding: 10px;
+   margin:10px;
+}
+.container12{
+  background-color: #ffb3b3;
+  padding: 10px;
+   margin:10px;
+}
+.container13{
+  background-color: #ffcccc;
+  padding: 10px;
+   margin:10px;
+}
+
+.container14{
+  background-color: #ffe6e6;
+  padding: 10px;
+   margin:10px;
+}
+
+.container15{
+  background-color: #FFF291;
+  padding: 10px;
+   margin:10px;
+   font-size: 25px; 
+  font-family: Shadows Into Light, Satisfy, cursive,'Shift', sans-serif;
+  font-weight: 500;
+}
+
+.container16{
+  background-color: #8cd98c;
+  padding: 10px;
+   margin:10px;
+   font-size: 25px; 
+  font-family: Shadows Into Light, Satisfy, cursive,'Shift', sans-serif;
+  font-weight: 500;
+}
+
+
+/*@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1920) {
+
+ @media screen and (min-device-width: 320px)
+and (max-device-width : 1920px) {
+ 
+ body {
+COLORS
+ background: red;
+background-color:#00ffbf light green; #b3e6ff lighter blue; #cceeff much lighter blue; #e6f2ff lightest blue;
+#dfbf9f sandy brown;  #e6ccb3 lighter sandy brown; #ecd9c6 much lighter brown;
+#ffb3b3/#ff9999 salmon; #ffcccc/#ffb3b3 lighter salmon;  #ffe6e6/#ffcccc lighter than light salmon; #ff9999/#ffe6e6 lightest salmon;
+#339933 greenish; #39ac39 lighter green; #8cd98c much lighter green;
+#FFF291 tanish; 
+
+}*/
+
+
+
+/*@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}*/
+
+/* display:none; */
+
+
+/*Colors...#80bfff:azure blue
+background-color: #ff6666*/
+
+
+/*.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
+
+
+
+
+
+/*background-image:url('http://goo.gl/04j7Nn');*/
+
+
+/*.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: cursive,'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container2{
+    position: relative;
+    
+}
+.side{background-color: #ff6666;
+    height: 600px;
+    width: 600px;
+    float: left;
+    
+}
+.main{background-color: #80bfff;
+    height: auto;
+    width: auto;
+    float: right;
+    
+}
+.footer{
+background-color: #bf8040;
+    position:relative;
+    height: 25%;
+    
+}*/
+
+/*'http://goo.gl/04j7Nn'*/
