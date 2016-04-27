@@ -12,7 +12,6 @@ body{
 
 .jumbotron {
   background-image:url('../img/pcproject/scenery.jpg');
-  /*background-image:url('../img/pcproject/Panaview-Santiago.jpg');*/
   height: 500px;
   width: 100%;
   background-repeat: no-repeat;
@@ -38,9 +37,9 @@ body{
 }
 
 
-.jumbotron connect{
-/*    background-image:url();*/
-}
+/*.jumbotron connect{
+    background-image:url();
+}*/
 
 /*.jumbotron p {
   font-size: 20px;
@@ -56,33 +55,33 @@ body{
 .container2{
     position: relative;
      margin:15px;
-   /* float: left;*/
 } 
 
-.container2a{
+/*.container2a{
     position: relative;
     margin:15px;
-    /*float: right;*/
-} 
+    width: 100%;
+    float: none;
+}*/ 
 
-#side {background-image: url('../img/pcproject/havana-blue.jpg');
+/*#side {background-image: url(#);*/
     /*background-image: url('../img/pcproject/oldtimer.jpg');*/
-    height:700px;
+   /*height:700px;
     width: 25%;
     margin:5px;
     border:5px #800000;  
     float: left;
     background-size: cover;
     clear:both;
-}
+}*/
    
-#main {background-image: url('../img/pcproject/woman-blue.jpg');
+/*#main {background-image: url('../img/pcproject/woman-blue.jpg');
     /*background-image: url('../img/pcproject/dancematanzas.jpg');*/
-    height: 700px;
+    /*height: 700px;
     width: 70%;
     margin:5px;
     float: right;
-    background-size: cover;
+    background-size: cover;*/
     
         /*border:0px, 500px, 0px,500px #800000;
         display: inline-flex;*/}
@@ -91,7 +90,7 @@ body{
     
 
     
-#footer{
+/*#footer{
 background-color: #bf8040;
 position:relative;
     height: 70px;
@@ -101,22 +100,22 @@ position:relative;
     padding: 0px,500px,0px, 500px;
     display: inline-flex;
    
-}
+}*/
 
-.pagination{
+/*.pagination{
   position: absolute;
   top: 0;
   /*left:650px;*/
-  width: 100%;
+  /*width: 100%;
  font-family: cursive;
-}
+}*/
 
 .footer{
 background-color: #bf8040;
 position:relative;
     /*height: 100px;*/
     width: 1900px;
-    border:0px, 500px,0px, 15px, #800000;
+    border:0px, 300px,0px, 15px, #800000;
     margin:50px, 0, 15px, 0;
     padding: 20px;
     display: inline-flex;
@@ -144,6 +143,24 @@ img{
     height: 200px;
     display: inline-block;*/
 }
+
+
+.containerA{
+  background-color: #339933; 
+  /*url("..img/pcproject/classygentleman.jpg") no repeat;*/
+  padding: 10px;
+   margin:10px;
+}
+.containerB{
+  background-color: #39ac39;
+  padding: 10px;
+   margin:10px;
+}.containerC{
+  background-color: #8cd98c;
+  padding: 10px;
+   margin:10px;
+}
+
 
 .container3{
   background-color: #80bfff; 
@@ -192,7 +209,6 @@ img{
 }
 
 .container11{
-  /*background-image: url('img/pcproject/#.jpg');*/
   background-color: #ff9999;
   padding: 10px;
    margin:10px;
@@ -214,13 +230,38 @@ img{
    margin:10px;
 }
 
+
+.container11a{
+  background-color: #cc33ff;
+  padding: 10px;
+   margin:10px;
+}
+.container12a{
+  background-color: #d24dff;
+  padding: 10px;
+   margin:10px;
+}
+.container13a{
+  background-color: #d966ff;
+  padding: 10px;
+   margin:10px;
+}
+
+.container14a{
+  background-color: #df80ff;
+  padding: 10px;
+   margin:10px;
+}
+
+
 .container15{
   background-color: #FFF291;
   padding: 10px;
    margin:10px;
-   font-size: 25px; 
+   font-size: 20px; 
   font-family: Shadows Into Light, Satisfy, cursive,'Shift', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
+   line-height: 1.1em;
 }
 
 .container16{
@@ -247,7 +288,7 @@ background-color:#00ffbf light green; #b3e6ff lighter blue; #cceeff much lighter
 #dfbf9f sandy brown;  #e6ccb3 lighter sandy brown; #ecd9c6 much lighter brown;
 #ffb3b3/#ff9999 salmon; #ffcccc/#ffb3b3 lighter salmon;  #ffe6e6/#ffcccc lighter than light salmon; #ff9999/#ffe6e6 lightest salmon;
 #339933 greenish; #39ac39 lighter green; #8cd98c much lighter green;
-#FFF291 tanish; 
+#FFF291 tanish; #cc33ff purple; #d24dff lighter purple; #d966ff much lighter purple; #df80ff gradually lighter purple;
 
 }*/
 
